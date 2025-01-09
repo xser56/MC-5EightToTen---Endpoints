@@ -10,12 +10,13 @@ namespace MC_5EightToTen___Endpoints.Services
         public string Magic8Ball(string AskAQuestion)
         {
             string response = "";
-
-            if (string.IsNullOrWhiteSpace(AskAQuestion) || !AskAQuestion.Trim().EndsWith("?"))
+            // Validation
+            if (!AskAQuestion.Trim().EndsWith("?"))
             {
                 return "Please enter a question with a '?' at the end of your sentence.";
             }
 
+            // Grab 
             Random rng = new Random();
             int check = rng.Next(1, 9); 
 
