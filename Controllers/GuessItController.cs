@@ -19,21 +19,21 @@ namespace MC_5EightToTen___Endpoints.Controllers
 
         [HttpGet]
         [Route("guessEasy")]
-        public string GuessItEasy(int guessEasy)
+        public string GuessItEasy(string guessEasy)
         {
             return _guessItServices.GuessItEasy(guessEasy);
         }
         
         [HttpGet]
         [Route("guessMedium")]
-        public string GuessItMedium(int guessMedium)
+        public string GuessItMedium(string guessMedium)
         {
             return _guessItServices.GuessItMedium(guessMedium);
         }
 
         [HttpGet]
         [Route("guessHard")]
-        public string GuessItHard(int guessHard)
+        public string GuessItHard(string guessHard)
         {
             return _guessItServices.GuessItHard(guessHard);
         }
