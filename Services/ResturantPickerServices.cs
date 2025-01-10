@@ -39,17 +39,3 @@ namespace MC_5EightToTen___Endpoints.Services
         }
     }
 }
-
-
-// Choose food catagory 3
-// Array with 3 food categories
-// Validation if/else
-// if true 
-// Chooses random restuarant
-// Random Array
-// Chooses random restuant array
-// return choosen resturant
-// else 
-// Display invalid
-
-// display the resturant
