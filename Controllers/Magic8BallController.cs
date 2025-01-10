@@ -19,7 +19,7 @@ namespace MC_5EightToTen___Endpoints.Controllers
         }
 
         [HttpGet]
-        [Route("Magic8Ball/{AskAQuestion}")]
+        [Route("AskAQuestion")]
         public string Magic8Ball(string AskAQuestion)
         {
             return _magic8BallServices.Magic8Ball(AskAQuestion);

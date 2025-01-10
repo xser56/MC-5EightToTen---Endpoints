@@ -19,7 +19,7 @@ namespace MC_5EightToTen___Endpoints.Controllers
         }
 
         [HttpGet]
-        [Route("ChooseFood Asian, Mexican, Fast Food")]
+        [Route("Choose A Food: Asian, Mexican, Fast Food")]
         public string RestaurantPicker(string ChooseFood)
         {
             return _resturantPickerServices.PickRestaurant(ChooseFood);
